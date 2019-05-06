@@ -6,7 +6,7 @@
 ; General preferences
 G90                                         ; Send absolute coordinates...
 M83                                         ; ...but relative extruder moves
-M665 R134.67 L271.5 B120 H305              ; Set delta radius, diagonal rod length, printable radius and homed height
+M665 R134.67 L271.5 B120 H306              ; Set delta radius, diagonal rod length, printable radius and homed height
 M666 X0 Y0 Z0                               ; Put your endstop adjustments here, or let auto calibration find them
 
 ; Network
@@ -38,7 +38,7 @@ M574 X2 Y2 Z2 S1                            ; Set active high endstops
 
 ; Z-Probe
 M558 P4 H10 F120 T6000                       ; Set Z probe type to switch and the dive height + speeds
-G31 P500 X0 Y0 Z17.941                       ; Set Z probe trigger value, offset and trigger height
+G31 P500 X0 Y0 Z15.644                      ; Set Z probe trigger value, offset and trigger height
 M557 R115 S20                               ; Define mesh grid
 
 ; Heaters
